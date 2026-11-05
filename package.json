@@ -1,0 +1,12 @@
+{
+  "name": "fetch-guard-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small JSON fetch client with timeouts, cancellation, and readable HTTP errors.",
+  "type": "module",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test", "example": "node examples/local-demo.js" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
